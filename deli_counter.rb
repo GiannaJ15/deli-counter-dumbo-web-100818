@@ -15,5 +15,6 @@ end
 end 
 
 def take_a_number(katz_deli, name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  n= katz_deli.length
+  puts "Welcome, #{name}. You are number #{katz_deli[n+1}} in line."
 end 
